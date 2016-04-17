@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/kobe/Documents/androidStudio/House/house2/house/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/kobe/Documents/androidStudio/House/house2/house/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kobe/Documents/androidStudio/House/house2/house/build/intermediates/res/merged/debug/drawable-xhdpi-v4/indicator_arrow.png",
+        "source": "/Users/kobe/Documents/androidStudio/House/house2/house/build/intermediates/exploded-aar/house2/library/unspecified/res/drawable-xhdpi-v4/indicator_arrow.png"
+    },
+    {
+        "merged": "/Users/kobe/Documents/androidStudio/House/house2/house/build/intermediates/res/merged/debug/drawable-xhdpi-v4/default_ptr_flip.png",
+        "source": "/Users/kobe/Documents/androidStudio/House/house2/house/build/intermediates/exploded-aar/house2/library/unspecified/res/drawable-xhdpi-v4/default_ptr_flip.png"
+    },
+    {
+        "merged": "/Users/kobe/Documents/androidStudio/House/house2/house/build/intermediates/res/merged/debug/drawable-xhdpi-v4/default_ptr_rotate.png",
+        "source": "/Users/kobe/Documents/androidStudio/House/house2/house/build/intermediates/exploded-aar/house2/library/unspecified/res/drawable-xhdpi-v4/default_ptr_rotate.png"
+    }
+]

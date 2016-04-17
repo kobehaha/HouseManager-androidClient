@@ -1,0 +1,224 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:2:1-107:12
+	package
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml
+		INJECTED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml
+		INJECTED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml
+		INJECTED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [house2:resideMenu:unspecified] /Users/kobe/Documents/androidStudio/House/house2/house/build/intermediates/exploded-aar/house2/resideMenu/unspecified/AndroidManifest.xml:7:5-9:40
+MERGED from [house2:library:unspecified] /Users/kobe/Documents/androidStudio/House/house2/house/build/intermediates/exploded-aar/house2/library/unspecified/AndroidManifest.xml:7:5-9:40
+	android:targetSdkVersion
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml
+		INJECTED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml
+		INJECTED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:13:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:14:22-78
+uses-feature#android.hardware.camera
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:16:5-60
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:16:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:17:5-70
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:17:19-67
+uses-permission#android.permission.CAMERA
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:19:5-65
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:19:22-62
+application
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:21:5-105:19
+MERGED from [house2:library:unspecified] /Users/kobe/Documents/androidStudio/House/house2/house/build/intermediates/exploded-aar/house2/library/unspecified/AndroidManifest.xml:11:5-20
+	android:label
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:24:9-41
+	android:allowBackup
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:22:9-35
+	android:icon
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:23:9-45
+	android:theme
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:25:9-40
+activity#com.se.house.MenuActivity
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:26:9-30:20
+	android:label
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:28:13-45
+	android:theme
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:29:13-66
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:27:13-53
+activity#com.ma.activity.login
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:31:9-39:20
+	android:label
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:33:13-45
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:32:13-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:37:27-74
+activity#com.ma.activity.ActivityShowPicture
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:40:9-41:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:40:19-69
+activity#com.ma.activity.ActivityAddHouseInfo
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:42:9-43:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:42:19-70
+activity#com.ma.activity.ActivityAddHouseOwner
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:44:9-45:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:44:19-71
+activity#com.ma.activity.ActivityAddSeller
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:46:9-47:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:46:19-67
+activity#com.ma.activity.ActivitySendNotice
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:48:9-49:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:48:19-68
+activity#com.ma.activity.ActivitySearch
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:50:9-51:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:50:19-64
+activity#com.ma.activity.ActivityMain
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:52:9-53:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:52:19-62
+activity#com.se.house.ActivitySellerLogin
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:54:9-55:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:54:19-66
+activity#com.se.house.Ac_se_main
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:56:9-57:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:56:19-57
+activity#com.se.house.ActivitySellerInfo
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:58:9-59:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:58:19-65
+activity#com.se.house.ActivitySellerInsertClientInfo
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:60:9-61:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:60:19-77
+activity#com.se.house.ActivitySellerSearch
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:62:9-63:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:62:19-67
+activity#com.se.house.ActivitySellerNotice
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:64:9-65:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:64:19-67
+activity#com.se.house.ActivitySellerInsertClientList
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:66:9-67:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:66:19-77
+activity#com.se.house.ActivityModifySellerInfo
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:68:9-69:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:68:19-71
+activity#com.se.house.ActivitySellerClientChooseHouse
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:70:9-71:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:70:19-78
+activity#com.ma.activity.ActivityHouseInfo
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:72:9-73:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:72:19-67
+activity#com.se.house.ActivitySellerSetting
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:74:9-75:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:74:19-68
+activity#com.se.house.ActivitySellerRecall
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:76:9-77:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:76:19-67
+activity#com.ma.photo.activity.ActivityAlbumAddHouse
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:78:9-79:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:78:19-77
+activity#com.ma.photo.activity.GalleryActivity
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:80:9-81:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:80:19-71
+activity#com.ma.photo.activity.ImageFile
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:82:9-83:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:82:19-65
+activity#com.ma.photo.activity.ShowAllPhoto
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:84:9-85:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:84:19-68
+activity#com.ma.activity.ActivityManagerInfo
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:86:9-87:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:86:19-69
+activity#com.ma.activity.ActivityModifyManagerInfo
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:88:9-89:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:88:19-75
+activity#com.ma.photo.activity.ActivityAlbumAddHouse2
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:90:9-91:20
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:90:19-78
+activity#com.se.house.ActivitySellerRecord
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:92:9-70
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:92:19-67
+activity#com.se.house.ActivitySellerBuyerRecord
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:94:9-75
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:94:19-72
+activity#com.se.house.ActivitySellerRecordInfo
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:96:9-74
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:96:19-71
+activity#com.se.house.ActivitySellerClientModify
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:98:9-76
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:98:19-73
+activity#com.se.house.ActivitySellerDeal
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:100:9-68
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:100:19-65
+activity#com.ma.activity.ActivitySellerInfo
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:102:9-71
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:102:19-68
+activity#com.se.house.ActivitySellerModifyChooseHouse
+ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:104:9-80
+	android:name
+		ADDED from /Users/kobe/Documents/androidStudio/House/house2/house/src/main/AndroidManifest.xml:104:19-78

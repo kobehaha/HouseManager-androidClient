@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/input_bg"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <EditText
+            android:id="@+id/ed_se_username"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:hint="@string/tv_id"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/ed_se_userpsd"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="numberPassword"
+            android:layout_marginTop="10dp"
+            android:hint="@string/tv_password" />
+
+        <Button
+            android:id="@+id/btn_se_start"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/input_bg"
+            android:text="@string/tv_login"
+            android:textColor="@color/app_color" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tv_seller"
+        android:textColor="@color/app_color"
+        android:textSize="25sp" />
+
+</RelativeLayout>
