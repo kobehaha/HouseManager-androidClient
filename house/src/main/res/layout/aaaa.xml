@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:background="@drawable/title_bar_bg"
+
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/white" >
+
+        <LinearLayout
+
+            android:id="@+id/ll_user_info"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginRight="20dp"
+
+            android:layout_marginTop="5dp"
+
+            android:background="@drawable/lbs_popup_bg"
+
+            android:orientation="vertical" >
+
+
+
+            <EditText
+
+                android:id="@+id/ed_account"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+
+                android:background="@color/white"
+
+                android:hint="@string/tv_id"
+
+                android:inputType="number"
+
+                android:padding="5dp" />
+
+
+
+            <View
+
+                android:layout_width="match_parent"
+
+                android:layout_height="0.5dp"
+
+                android:background="@color/devide_line" />
+
+
+
+            <EditText
+
+                android:id="@+id/ed_password"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="50dp"
+
+                android:layout_margin="2dp"
+
+                android:background="@color/white"
+
+                android:hint="@string/tv_password"
+
+                android:inputType="numberPassword"
+
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_alignRight="@+id/ll_user_info"
+            android:layout_below="@+id/ll_user_info"
+            android:layout_marginRight="86dp"
+            android:background="@drawable/title_bar_bg"
+            android:text="@string/tv_login"
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

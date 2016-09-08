@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/title_bar_bg"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/title_bar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/title_bar_bg" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/tv_add_house"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/action_settings"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/break_line" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <!--
+                <Button
+                    android:id="@+id/btn_choose_picture"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/input_bg"
+                    android:text="@string/tv_choose"
+                    android:textColor="@color/app_color" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/action_settings"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/break_line" />
+
+                <LinearLayout
+                    android:id="@+id/layout_choose_picture"
+                    android:layout_width="fill_parent"
+                    android:layout_height="100sp"
+                    android:orientation="horizontal"
+                    android:visibility="invisible" >
+
+                    <ImageView
+                        android:id="@+id/img_to_gallery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:contentDescription="@string/action_settings"
+                        android:src="@drawable/send_image_selector" />
+
+                    <ImageView
+                        android:id="@+id/img_to_camera"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:contentDescription="@string/action_settings"
+                        android:src="@drawable/take_photo_selector" />
+                </LinearLayout>
+                -->
+
+
+                <!--
+                     <ImageView
+                    android:id="@+id/img_picture"
+                    android:layout_width="200sp"
+                    android:layout_height="200sp"
+                    android:layout_marginLeft="20sp"
+                    android:contentDescription="@string/action_settings"
+                    android:src="@color/app_color" />
+                -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:text="@string/insert_picture"
+                    android:textColor="@color/gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <GridView
+                    android:id="@+id/grid_choose_picture"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="40sp"
+                    android:horizontalSpacing="3sp"
+                    android:numColumns="4"
+                    android:scrollbars="none"
+                    android:verticalSpacing="4sp" >
+                </GridView>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/nickname_layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    android:id="@+id/nn_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/tv_name2"
+                    android:textColor="@color/gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_ma_house_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp"
+                    android:layout_toRightOf="@+id/nn_id"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:inputType="text"
+                    android:paddingRight="10dp"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/action_settings"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/break_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    android:id="@+id/nn2_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/tv_house_location"
+                    android:textColor="@color/gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_ma_house_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp"
+                    android:layout_toRightOf="@+id/nn2_id"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:inputType="text"
+                    android:paddingRight="10dp"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/action_settings"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/break_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    android:id="@+id/nn3_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/tv_house_price"
+                    android:textColor="@color/gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_ma_house_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp"
+                    android:layout_toRightOf="@+id/nn3_id"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:inputType="number"
+                    android:paddingRight="10dp"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/action_settings"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/break_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    android:id="@+id/nn4_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/tv_house_size"
+                    android:textColor="@color/gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <!--
+                      <EditText
+                    android:id="@+id/ed_ma_house_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp"
+                    android:layout_toRightOf="@+id/nn3_id"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:inputType="number"
+                    android:paddingRight="10dp"
+                    android:singleLine="true" />
+                -->
+
+                <EditText
+                    android:id="@+id/ed_ma_house_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp"
+                    android:layout_toRightOf="@+id/nn4_id"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:inputType="number"
+                    android:paddingRight="10dp"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/action_settings"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/break_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    android:id="@+id/nn5_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/tv_house_year"
+                    android:textColor="@color/gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_ma_house_year"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp"
+                    android:layout_toRightOf="@+id/nn5_id"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:inputType="number"
+                    android:paddingRight="10dp"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/action_settings"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/break_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+                android:layout_gravity="fill_horizontal"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    android:id="@+id/nn6_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/tv_house_brief"
+                    android:textColor="@color/gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_ma_house_brief"
+                    android:layout_width="fill_parent"
+                    android:layout_height="100sp"
+                    android:layout_below="@+id/nn6_id"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:inputType="text"
+                    android:lines="2"
+                    android:paddingRight="10dp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_ma_add_house_sure"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:layout_marginBottom="0sp"
+                android:background="@drawable/input_bg"
+                android:text="@string/tv_ok"
+                android:textColor="@color/app_color" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
