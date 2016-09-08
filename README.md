@@ -1,4 +1,4 @@
-# HouseManager-androidClient [分为两个客户端 1 管理端 2 销售 ]
+# HouseManager-androidClient [一个客户端 两个账户功能 1 管理端 2 销售 ]
 
 # 前端的图片上传【自己封装的java表单 源代码】，图片缓存，数据存储,
    后台数据图片的存储，数据库的事务处理
